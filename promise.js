@@ -1,27 +1,3 @@
-// function promiseReturnVal (boolparam){
-//     return new Promise ((resolve,reject)=>{
-// if(boolparam){
-//     resolve('good')
-// }
-// else{
-//     reject('bad') 
-// }
-//     })
-// }
-// let bool = true;
-// promiseReturnVal(bool)
-// .then(res=>console.log(res))
-// .catch(rej=>console.log(rej))
-// .finally(()=>{ })
-
-// bool = false;
-// promiseReturnVal(bool)
-// .then(res=>console.log(res))
-// .catch(rej=>console.log(rej))
-// .finally(()=>{ })
-
-// ==================================================
-
 // let counter =1;
 // function ranNum(numberOfInput){
 //     return new Promise((resolve,reject)=>{
@@ -51,7 +27,9 @@
 // function printToDiv(prams){
 //     mainDiv.innerHTML = prams
 // }
-// ===============================================
+// שתי הפונקציות העליונה והתחתונה עושות את אותו הדבר בדיוק.
+// העליונה עובדת עם פרומיס רגיל עם ריג'קט וריסולב.
+// לעומת זאת הפונקציה התחתונה עושה את אותו הדבר עם אסינק ואוואית===================
 
 let counter =1;
  function ranNum(numberOfInput){
